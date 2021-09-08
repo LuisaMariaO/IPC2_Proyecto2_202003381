@@ -3,18 +3,40 @@ import os
 
 
 def ventanaPrincipal():
-    global x,y
+    #Termina la pantalla de carga
     loading.destroy()
+    #Configuración general de la ventana principal
     ventana=Tk()
     ancho=ventana.winfo_screenwidth()
-    
     alto=ventana.winfo_screenheight()
-    x=ancho/2
-    y=alto/2
     ventana.geometry("%dx%d" % (ancho, alto))
     ventana.title("Digital Intelligence S.A.")
     ruta_abs=os.path.abspath('.')
     ventana.iconbitmap(ruta_abs+'\\FrontEnd\\Imagenes\\icono.ico')
+    
+    #Boton de configuración de máquina
+    img_config = PhotoImage(file=ruta_abs+'\\FrontEnd\\Imagenes\\settings.png')
+    boton_config=Button(text="Cargar configuración",image=img_config, compound=TOP, height=60, width=115)
+    boton_config.place(x=(ancho-125),y=0)
+
+    #Carga de archivo
+    img_loadfile = PhotoImage(file=ruta_abs+'\\FrontEnd\\Imagenes\\load.png')
+    boton_cargar=Button(text="Cargar productos",image=img_loadfile, compound=TOP, height=60, width=90)
+    boton_cargar.place(x=0,y=0)
+    
+    #Exportar reporte
+    img_expfile = PhotoImage(file=ruta_abs+'\\FrontEnd\\Imagenes\\export.png')
+    boton_exp=Button(text="Exportar reportes",image=img_expfile, compound=TOP, height=60, width=90)
+    boton_exp.place(x=99,y=0)
+
+    #Ayuda
+    img_help = PhotoImage(file=ruta_abs+'\\FrontEnd\\Imagenes\\help.png')
+    boton_help=Button(text="Ayuda",image=img_help, compound=TOP, height=60, width=90)
+    boton_help.place(x=198,y=0)
+
+    ventana.mainloop()
+
+  
     
 
 
