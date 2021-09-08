@@ -1,13 +1,24 @@
-import tkinter
+from tkinter import *
 import os
-class Ventana():
 
-    def __init__(self):
-        self.ventana=tkinter.Tk()
-        ancho=self.ventana.winfo_screenwidth()
-        alto=self.ventana.winfo_screenheight()
-        self.ventana.geometry("%dx%d" % (ancho, alto))
-        self.ventana.title("Digital Intelligence S.A.")
-        ruta_abs=os.path.abspath('.')
-        self.ventana.iconbitmap(ruta_abs+'\\FrontEnd\\Imagenes\\icono.ico')
-        self.ventana.mainloop()
+
+
+
+def ventanaPrincipal():
+    ventana=Tk()
+    ancho=ventana.winfo_screenwidth()
+    alto=ventana.winfo_screenheight()
+    ventana.geometry("%dx%d" % (ancho, alto))
+    ventana.title("Digital Intelligence S.A.")
+    ruta_abs=os.path.abspath('.')
+    ventana.iconbitmap(ruta_abs+'\\FrontEnd\\Imagenes\\icono.ico')
+    ventana.mainloop()
+
+def ventanaInicio():
+    loading=Tk()
+    loading.title=("Cargando")
+    loading.geometry=("500x500")
+    label=Label(loading, text="Hola")
+    label.pack(pady=20)
+
+        
