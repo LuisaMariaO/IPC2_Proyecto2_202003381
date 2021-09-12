@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1166</width>
+    <height>624</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Digital Intelligence S.A.</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Imagenes/icono.ico</normaloff>Imagenes/icono.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>110</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>550</y>
+      <width>541</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_progreso">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>510</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Progreso</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="list_componentes">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>230</y>
+      <width>331</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_componentes">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>200</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Componentes necesarios</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="temporizador">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>520</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_segundos">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>530</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>segundos</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="table">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>80</y>
+      <width>491</width>
+      <height>431</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>90</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Producto</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1166</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="action_config_maquina"/>
+    <addaction name="action_simulacion"/>
+   </widget>
+   <widget class="QMenu" name="menuReportes">
+    <property name="title">
+     <string>Reportes</string>
+    </property>
+    <addaction name="action_reporte_simulacion"/>
+    <addaction name="action_reporte_cola"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="action_acerca_de"/>
+    <addaction name="separator"/>
+    <addaction name="action_my_info"/>
+   </widget>
+   <widget class="QMenu" name="menuReiniciar">
+    <property name="title">
+     <string>Máquina</string>
+    </property>
+    <addaction name="action_borrar"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuReportes"/>
+   <addaction name="menuAyuda"/>
+   <addaction name="menuReiniciar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_config_maquina">
+   <property name="text">
+    <string>Cargar configuración de máquina</string>
+   </property>
+  </action>
+  <action name="action_simulacion">
+   <property name="text">
+    <string>Cargar archivo de simulación</string>
+   </property>
+  </action>
+  <action name="action_reporte_simulacion">
+   <property name="text">
+    <string>Reporte de simulación</string>
+   </property>
+  </action>
+  <action name="action_reporte_cola">
+   <property name="text">
+    <string>Reporte de cola de secuencia</string>
+   </property>
+  </action>
+  <action name="action_acerca_de">
+   <property name="text">
+    <string>Acerca de la aplicación</string>
+   </property>
+  </action>
+  <action name="action_my_info">
+   <property name="text">
+    <string>Acerca del programador</string>
+   </property>
+  </action>
+  <action name="action_borrar">
+   <property name="text">
+    <string>Borrar configuración de máquina</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

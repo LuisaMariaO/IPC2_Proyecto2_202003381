@@ -1,0 +1,39 @@
+<Maquina>   
+    <CantidadLineasProduccion>
+        2
+    </CantidadLineasProduccion>
+    <ListadoLineasProduccion>
+        <LineaProduccion>
+            <Numero>
+                1
+            </Numero>
+            <CantidadComponentes>
+                4
+            </CantidadComponentes>
+            <TiempoEnsamblaje>
+                1
+            </TiempoEnsamblaje>
+        </LineaProduccion>
+        <LineaProduccion>
+            <Numero>
+                2
+            </Numero>
+            <CantidadComponentes>
+                4
+            </CantidadComponentes>
+            <TiempoEnsamblaje>
+                1
+            </TiempoEnsamblaje>
+        </LineaProduccion>
+    </ListadoLineasProduccion>
+    <ListadoProductos>
+        <Producto>
+            <nombre>
+                SmartWatch
+            </nombre>
+            <elaboracion>
+                L1pC2p L2pC1p L2pC2p L1pC4
+            </elaboracion>
+        </Producto>
+    </ListadoProductos> 
+</Maquina>

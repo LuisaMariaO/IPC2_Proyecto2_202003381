@@ -1,5 +1,5 @@
-from Componente import Componente
-class ListaComponentes:
+from ElaboracionOptima import ElaboracionOptima
+class ListaElaboracionOptima:
     def __init__(self):
         self.primero = None
         self.ultimo = None

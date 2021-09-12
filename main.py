@@ -1,6 +1,11 @@
 from tkinter import *
+from tkinter.filedialog import askopenfilename
 import os
 
+
+def cargaMaquina():
+    
+    filename=askopenfilename(filetypes=[("Archivo xml","*.xml")])
 
 def ventanaPrincipal():
     #Termina la pantalla de carga
@@ -8,7 +13,10 @@ def ventanaPrincipal():
     #Configuración general de la ventana principal
     ventana=Tk()
     ancho=ventana.winfo_screenwidth()
+    
     alto=ventana.winfo_screenheight()
+    print(ancho)
+    print(alto)
     ventana.geometry("%dx%d" % (ancho, alto))
     ventana.title("Digital Intelligence S.A.")
     ruta_abs=os.path.abspath('.')
@@ -16,7 +24,7 @@ def ventanaPrincipal():
     
     #Boton de configuración de máquina
     img_config = PhotoImage(file='Imagenes\\settings.png')
-    boton_config=Button(text="Cargar configuración",image=img_config, compound=TOP, height=60, width=115)
+    boton_config=Button(text="Cargar configuración",image=img_config, compound=TOP, height=60, width=115, command=cargaMaquina)
     boton_config.place(x=(ancho-125),y=0)
 
     #Carga de archivo

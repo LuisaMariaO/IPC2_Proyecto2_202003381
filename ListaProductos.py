@@ -1,5 +1,5 @@
-from Componente import Componente
-class ListaComponentes:
+from Producto import Producto
+class ListaProductos:
     def __init__(self):
         self.primero = None
         self.ultimo = None
