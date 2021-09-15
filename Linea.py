@@ -1,9 +1,10 @@
 from ListaComponentes import ListaComponentes
 class Linea():
-    def __init__(self,numero,tiempo,no_componentes):
+    def __init__(self,numero,no_componentes,tiempo):
         self.numero=numero
-        self.tiempo=tiempo
         self.no_componentes=no_componentes
+        self.tiempo=tiempo
+       
         self.componentes=ListaComponentes()
         #Componente de la línea en el que se encuentra el brazo
         self.componente_actual=None
