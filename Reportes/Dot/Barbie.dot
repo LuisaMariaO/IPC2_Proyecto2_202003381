@@ -1,0 +1,24 @@
+
+            digraph L{
+            node[shape=box3d fillcolor=cadetblue3 style =filled]
+        
+            subgraph cluster_p{
+		label="Cola de secuencia: Barbie"
+		bgcolor = azure
+            edge[dir = "normal"]
+		L4C15[label="L4C15", fillcollor=azure]
+		L7C16[label="L7C16", fillcollor=azure]
+		L13C17[label="L13C17", fillcollor=azure]
+		L8C6[label="L8C6", fillcollor=azure]
+		L3C13[label="L3C13", fillcollor=azure]
+		L5C10[label="L5C10", fillcollor=azure]
+		L5C4[label="L5C4", fillcollor=azure]
+		L8C8[label="L8C8", fillcollor=azure]
+		L3C22[label="L3C22", fillcollor=azure]
+		L5C6[label="L5C6", fillcollor=azure]
+		L5C5[label="L5C5", fillcollor=azure]
+		L7C17[label="L7C17", fillcollor=azure]
+		L3C1[label="L3C1", fillcollor=azure]
+		{rank=same; L4C15->L7C16->L13C17->L8C6->L3C13->L5C10->L5C4->L8C8->L3C22->L5C6->L5C5->L7C17->L3C1}
+}
+}

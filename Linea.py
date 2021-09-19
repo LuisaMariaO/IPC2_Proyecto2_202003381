@@ -7,7 +7,10 @@ class Linea():
        
         self.componentes=ListaComponentes()
         #Componente de la línea en el que se encuentra el brazo
-        self.componente_actual=None
+
+        self.componente_actual=0
+        self.componente_siguiente=None
+        self.disponible=True
         self.siguiente = None
         self.anterior = None
        

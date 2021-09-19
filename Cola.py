@@ -29,6 +29,18 @@ class Cola:
             print("")
         print("")
 
+    def finalizado(self,linea, componente):
+        aux = self.primero
+        if self.size>0:
+            while aux is not None:
+                if linea==aux.linea and componente==aux.componente:
+                    aux.terminado=True
+                    return aux
+         
+                aux = aux.siguiente
+        return None
+
+
     def graficar(self):
         graphviz=''
         #Crep los nodos
