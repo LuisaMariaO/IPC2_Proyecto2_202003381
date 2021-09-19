@@ -1,0 +1,23 @@
+
+            digraph L{
+            node[shape=box3d fillcolor=cadetblue3 style =filled]
+        
+            subgraph cluster_p{
+		label="Elaboración de Banda Galaxy Fit 2"
+		bgcolor = azure
+            edge[dir = "normal"]
+		L4C23[label="L4C23", fillcollor=azure]
+		L12C16[label="L12C16", fillcollor=azure]
+		L2C9[label="L2C9", fillcollor=azure]
+		L9C15[label="L9C15", fillcollor=azure]
+		L3C19[label="L3C19", fillcollor=azure]
+		L7C9[label="L7C9", fillcollor=azure]
+		L5C1[label="L5C1", fillcollor=azure]
+		L11C22[label="L11C22", fillcollor=azure]
+		L7C7[label="L7C7", fillcollor=azure]
+		L5C10[label="L5C10", fillcollor=azure]
+		L13C12[label="L13C12", fillcollor=azure]
+		L10C14[label="L10C14", fillcollor=azure]
+		L13C7[label="L13C7", fillcollor=azure]
+}
+}

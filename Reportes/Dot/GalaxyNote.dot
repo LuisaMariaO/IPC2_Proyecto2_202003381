@@ -1,0 +1,24 @@
+
+            digraph L{
+            node[shape=box3d fillcolor=cadetblue3 style =filled]
+        
+            subgraph cluster_p{
+		label="Cola de secuencia: Galaxy Note"
+		bgcolor = azure
+            edge[dir = "normal"]
+		L6C7[label="L6C7", fillcollor=azure]
+		L10C2[label="L10C2", fillcollor=azure]
+		L13C14[label="L13C14", fillcollor=azure]
+		L2C6[label="L2C6", fillcollor=azure]
+		L6C14[label="L6C14", fillcollor=azure]
+		L7C15[label="L7C15", fillcollor=azure]
+		L8C2[label="L8C2", fillcollor=azure]
+		L12C14[label="L12C14", fillcollor=azure]
+		L9C5[label="L9C5", fillcollor=azure]
+		L8C6[label="L8C6", fillcollor=azure]
+		L7C6[label="L7C6", fillcollor=azure]
+		L9C10[label="L9C10", fillcollor=azure]
+		L5C2[label="L5C2", fillcollor=azure]
+		{rank=same; L6C7->L6C7->L10C2->L13C14->L2C6->L6C14->L7C15->L8C2->L12C14->L9C5->L8C6->L7C6->L9C10->L5C2}
+}
+			}

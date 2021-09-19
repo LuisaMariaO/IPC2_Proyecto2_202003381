@@ -1,0 +1,24 @@
+
+            digraph L{
+            node[shape=box3d fillcolor=cadetblue3 style =filled]
+        
+            subgraph cluster_p{
+		label="Cola de secuencia: iPhone 6s"
+		bgcolor = azure
+            edge[dir = "normal"]
+		L2C9[label="L2C9", fillcollor=azure]
+		L7C11[label="L7C11", fillcollor=azure]
+		L9C21[label="L9C21", fillcollor=azure]
+		L11C24[label="L11C24", fillcollor=azure]
+		L10C14[label="L10C14", fillcollor=azure]
+		L1C8[label="L1C8", fillcollor=azure]
+		L9C13[label="L9C13", fillcollor=azure]
+		L12C1[label="L12C1", fillcollor=azure]
+		L5C5[label="L5C5", fillcollor=azure]
+		L3C13[label="L3C13", fillcollor=azure]
+		L12C11[label="L12C11", fillcollor=azure]
+		L6C2[label="L6C2", fillcollor=azure]
+		L3C6[label="L3C6", fillcollor=azure]
+		{rank=same; L2C9->L7C11->L9C21->L11C24->L10C14->L1C8->L9C13->L12C1->L5C5->L3C13->L12C11->L6C2->L3C6}
+}
+}

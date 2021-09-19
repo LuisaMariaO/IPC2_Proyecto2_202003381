@@ -28,3 +28,24 @@ class Cola:
         else:
             print("")
         print("")
+
+    def graficar(self):
+        graphviz=''
+        #Crep los nodos
+        aux = self.primero
+        if self.size>0:
+            while aux is not None:
+                graphviz+='\t\t'+str(aux.linea)+str(aux.componente)+'[label="'+str(aux.linea)+str(aux.componente)+'", fillcollor=azure]\n'
+                aux = aux.siguiente
+        #Conecto los nodos
+        aux = self.primero
+        graphviz+='\t\t{rank=same; '+str(aux.linea)+str(aux.componente)
+        aux=aux.siguiente
+        if self.size>0:
+            while aux is not None:
+                graphviz+='->'+str(aux.linea)+str(aux.componente)
+                aux = aux.siguiente
+        graphviz+='}\n'
+
+        return graphviz
+        
