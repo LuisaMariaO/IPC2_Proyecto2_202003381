@@ -94,7 +94,7 @@ class MainWindow(object):
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
         self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 489, 429))
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
-        self.table = QtWidgets.QTableView(self.scrollAreaWidgetContents)
+        self.table = QtWidgets.QTableWidget(self.scrollAreaWidgetContents)
         self.table.setGeometry(QtCore.QRect(0, 0, 491, 431))
         self.table.setObjectName("table")
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)

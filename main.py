@@ -1,7 +1,7 @@
 from Producto import Producto
 import sys
 from PyQt5 import uic
-from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QAction, QMessageBox, QDialog
+from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QAction, QMessageBox, QDialog, QTableWidget, QTableWidgetItem
 
 from Interfaz import MainWindow
 import xml.etree.ElementTree as ET
@@ -29,6 +29,15 @@ class Ventana(QMainWindow):
 
         #Botón de simular
         self.ui.B_play.clicked.connect(self.simular)
+
+        self.ui.table.setRowCount(2)
+        self.ui.table.setColumnCount(2)
+
+        headers = QTableWidgetItem("Segundo")
+        self.ui.table.setVerticalHeaderItem(0,headers)
+        
+        #self.ui.table.setItem(0,0, QTableWidgetItem("Cell (1,1)"))
+        #self.ui.table.setItem(0,1, QTableWidgetItem("Cell (1,2)"))
 
         #self.pushButton.clicked.connect(self.hola)
     def config(self):
