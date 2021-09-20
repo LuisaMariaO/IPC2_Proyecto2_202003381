@@ -4,17 +4,20 @@ class Cola:
         self.primero = None
         self.ultimo = None
         self.size = 0
-    def encolar(self,linea,componente): 
-        
-        nuevo = Elaboracion(linea, componente) 
-        self.size += 1
-        if self.primero is None:
-            self.primero = nuevo
+   
+    def vacia(self):
+         return self.primero == None 
+    
+    def encolar(self, linea, componente):
+        if self.vacia():
+            self.primero = self.ultimo = Elaboracion(linea,componente)
         else:
-            aux = self.primero
-            while aux.siguiente is not None:
-                aux = aux.siguiente
-            aux.siguiente = nuevo
+            aux = self.ultimo
+            self.ultimo = aux.siguiente = Elaboracion(linea,componente)
+            self.ultimo.anterior = aux
+            
+            
+        self.size+=1
 
     def desencolar(self):
         pass
@@ -34,7 +37,7 @@ class Cola:
         if self.size>0:
             while aux is not None:
                 if linea==aux.linea and componente==aux.componente:
-                    aux.terminado=True
+                    aux.ensamblado=True
                     return aux
          
                 aux = aux.siguiente

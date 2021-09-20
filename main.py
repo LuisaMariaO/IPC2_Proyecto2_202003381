@@ -17,6 +17,8 @@ class Ventana(QMainWindow):
         self.ui.setupUi(self)
 
         self.maquina=None
+        self.limite_linea=None
+        self.limte_componente=None
         #Carga configuración de máquina
         self.ui.action_config_maquina.triggered.connect(self.config)
         #Genera reportes de cola de secuencia
@@ -119,34 +121,67 @@ class Ventana(QMainWindow):
         if actual!="Seleccionar":
             producto=self.maquina.productos.getProducto(actual) #Producto actual
             cola=producto.elaboracion
+            
             elemento=cola.primero
+            #Encuentra los componentes a los que espera llegar cada línea antes de ensamblar por primera vez
             self.asignarSiguientes(elemento)
+    
 
             #Vuelvo a recorrer la cola desde el inicio para comenzar los movimientos
             elemento=cola.primero
-            while elemento is not None:
+            proximo=cola.primero
+            proximo_linea=proximo.linea
+            proximo_linea=int(proximo_linea.replace("L","")) #Reemplazo las letras porque las líneas y componentes están almacenados como enteros
+            proximo_componente=proximo.componente
+            proximo_componente=int(proximo_componente.replace("C",""))
+
+            print(proximo_linea)
+            print(proximo_componente)
+
+            columnas=0
+            ultimo=cola.ultimo
+
+            
+
+
+            
+            while proximo is not None: 
                 numero=elemento.linea
                 numero=int(numero.replace("L","")) #Reemplazo las letras porque las líneas y componentes están almacenados como enteros
                 componente=elemento.componente
                 componente=int(componente.replace("C",""))
                 linea=self.maquina.lineas.getLinea(numero)
-                
+      
                 if linea.disponible:
-                    self.maquina.lineas.setOcupada(numero)
+                    self.maquina.lineas.setOcupada(numero)   
                     if linea.componente_actual<linea.componente_siguiente:
                         self.maquina.lineas.moverAdelante(numero, linea.componente_actual)
                     elif linea.componente_actual>linea.componente_siguiente:
                         self.maquina.lineas.moverAtras(numero, linea.componente_actual)
                     elif linea.componente_actual==linea.componente_siguiente :
-                        if elemento.anterior is None or elemento.anterior.terminado: 
-                            print("Ensamble")
+                        if linea.componente_actual==proximo_componente and linea.numero==proximo_linea:
+                        
                             self.maquina.lineas.ensamblar(numero, linea.componente_actual)
                             producto.elaboracion.finalizado(numero, linea.componente_actual)
-                    
+                            self.maquina.lineas.setDisponible(numero)
+                            proximo=proximo.siguiente
+                            proximo_linea=proximo.linea
+                            proximo_linea=int(proximo_linea.replace("L","")) #Reemplazo las letras porque las líneas y componentes están almacenados como enteros
+                            proximo_componente=proximo.componente
+                            proximo_componente=int(proximo_componente.replace("C",""))
+                            print(proximo_linea)
+                            print(proximo_componente)
+                            elemento=cola.primero
+                            self.maquina.lineas.setComponenteSiguiente(proximo_linea,proximo_componente)
+                            
+                            continue
+                
                 elemento=elemento.siguiente
                 if elemento is None:
                     self.maquina.lineas.liberarLineas()
                     elemento=cola.primero
+                
+            
 
     def asignarSiguientes(self, elemento):
         while elemento is not None:
@@ -158,11 +193,40 @@ class Ventana(QMainWindow):
                 if linea.componente_siguiente==None:
                     self.maquina.lineas.setComponenteSiguiente(numero,componente) #Asigno el componente en todo el sistema
                     linea.componente_siguiente=componente #Asigno el componente de manera local
+                    self.limite_linea=numero
+                    self.limite_componente=linea.componente_siguiente
+
+                    
                     #'''El componente siguiente es la base para comenzar a mover las líneas'''
                    # return linea.componente_siguiente
                     
                 #print(linea.tiempo)
                 elemento=elemento.siguiente
+
+    def asignarSiguiente(self, numero, componente):
+        linea=self.maquina.lineas.getLinea(numero)
+        self.maquina.lineas.setComponenteSiguiente(numero,componente) #Asigno el componente en todo el sistema
+        linea.componente_siguiente=componente #Asigno el componente de manera local
+        self.limite_linea=numero
+        self.limite_componente=linea.componente_siguiente
+
+    
+    def asignarLimite(self, cola):
+        elemento=cola.primero
+
+        while elemento is not None:
+            numero=elemento.linea
+            numero=int(numero.replace("L","")) #Reemplazo las letras porque las líneas y componentes están almacenados como enteros
+            componente=elemento.componente
+            componente=int(componente.replace("C",""))
+            linea=self.maquina.lineas.getLinea(numero)
+            if linea.componente_siguiente!=None:
+                self.limte_linea=numero
+                self.limite_componente=linea.componente_siguiente
+            elemento=elemento.siguiente
+       
+
+
     def retornarSiguientes(self,elemento):
           while elemento is not None:
                 numero=elemento.linea

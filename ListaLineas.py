@@ -81,7 +81,7 @@ class ListaLineas:
     def moverAdelante(self, numero, componente):
         aux = self.primero
         while aux:
-            if numero==aux.numero and componente<=aux.numero:
+            if numero==aux.numero and componente<=aux.no_componentes:
                 aux.componente_actual=componente+1
                 print("Linea ",numero," Mover brazo - Componente ",componente+1)
                 
@@ -93,7 +93,7 @@ class ListaLineas:
     def moverAtras(self,numero, componente):
         aux = self.primero
         while aux:
-            if numero==aux.numero and componente<=aux.numero:
+            if numero==aux.numero and componente<=aux.no_componentes:
                 aux.componente_actual=componente-1
                 print("Linea ",numero," Mover brazo - Componente ",componente-1)
             
@@ -107,7 +107,7 @@ class ListaLineas:
         
         aux = self.primero
         while aux:
-            if numero==aux.numero and componente<=aux.numero:
+            if numero==aux.numero and componente<=aux.no_componentes:
                 aux.componente_siguiente=None
                 print("Linea ", numero, " Ensamblar - Componente",componente)
             
