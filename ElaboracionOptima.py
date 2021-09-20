@@ -1,7 +1,5 @@
 class ElaboracionOptima():
-    def __init__(self,tiempo,linea,accion):
-        self.tiempo=tiempo
-        self.linea=linea
+    def __init__(self,accion):
         self.accion=accion
         self.siguiente = None
         self.anterior = None

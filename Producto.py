@@ -1,10 +1,10 @@
 from Cola import Cola
-from ListaElaboracionOptima import ListaElaboracionOptima
+from ListaSegundos import ListaSegundos
 class Producto():
     def __init__(self,nombre):
         self.nombre=nombre
         self.elaboracion=Cola()
-        self.elaboracionOptima=ListaElaboracionOptima()
+        self.segundos=ListaSegundos()
         self.siguiente = None
         self.anterior = None
        

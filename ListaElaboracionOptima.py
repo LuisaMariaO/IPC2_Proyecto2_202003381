@@ -8,11 +8,11 @@ class ListaElaboracionOptima:
     def vacia(self):
          return self.primero == None 
     
-    def agregar(self, tiempo, linea, accion):
+    def agregar(self, accion):
         if self.vacia():
-            self.primero = self.ultimo = ElaboracionOptima(tiempo, linea, accion)
+            self.primero = self.ultimo = ElaboracionOptima(accion)
         else:
             aux = self.ultimo
-            self.ultimo = aux.siguiente = ElaboracionOptima(tiempo, linea, accion)
+            self.ultimo = aux.siguiente = ElaboracionOptima(accion)
             self.ultimo.anterior = aux
             
