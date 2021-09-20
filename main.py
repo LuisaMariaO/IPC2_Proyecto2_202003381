@@ -2,6 +2,7 @@ from Producto import Producto
 import sys
 from PyQt5 import uic
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QAction, QMessageBox, QDialog
+
 from Interfaz import MainWindow
 import xml.etree.ElementTree as ET
 from Maquina import Maquina
@@ -23,6 +24,8 @@ class Ventana(QMainWindow):
         self.ui.action_config_maquina.triggered.connect(self.config)
         #Genera reportes de cola de secuencia
         self.ui.action_reporte_cola.triggered.connect(self.reporteCola)
+
+        self.ui.comboBox.activated[str].connect(self.agregarComponentes)
 
         #Botón de simular
         self.ui.B_play.clicked.connect(self.simular)
@@ -90,6 +93,18 @@ class Ventana(QMainWindow):
             aux = aux.siguiente
 
 
+    def agregarComponentes(self, producto):
+        self.ui.list_componentes.clear()
+        if producto!="Seleccionar":
+            producto=self.maquina.productos.getProducto(producto) #Producto actual
+            cola=producto.elaboracion
+            
+            elemento=cola.primero
+
+            while elemento is not None:
+                self.ui.list_componentes.addItem(elemento.componente)
+                elemento=elemento.siguiente
+
     def reporteCola(self):
 
         actual=self.ui.comboBox.currentText() #Producto actual en el ComboBox
@@ -131,19 +146,19 @@ class Ventana(QMainWindow):
             elemento=cola.primero
             proximo=cola.primero
             proximo_linea=proximo.linea
-            proximo_linea=int(proximo_linea.replace("L","")) #Reemplazo las letras porque las líneas y componentes están almacenados como enteros
+            proximo_linea=int(proximo_linea.replace("L","")) 
             proximo_componente=proximo.componente
             proximo_componente=int(proximo_componente.replace("C",""))
 
-            print(proximo_linea)
-            print(proximo_componente)
+            #print(proximo_linea)
+            #print(proximo_componente)
 
             columnas=0
             ultimo=cola.ultimo
 
-            
+            linea_actual=self.maquina.lineas.primero
 
-
+            tiempo=0
             
             while proximo is not None: 
                 numero=elemento.linea
@@ -151,35 +166,50 @@ class Ventana(QMainWindow):
                 componente=elemento.componente
                 componente=int(componente.replace("C",""))
                 linea=self.maquina.lineas.getLinea(numero)
-      
-                if linea.disponible:
-                    self.maquina.lineas.setOcupada(numero)   
-                    if linea.componente_actual<linea.componente_siguiente:
-                        self.maquina.lineas.moverAdelante(numero, linea.componente_actual)
-                    elif linea.componente_actual>linea.componente_siguiente:
-                        self.maquina.lineas.moverAtras(numero, linea.componente_actual)
-                    elif linea.componente_actual==linea.componente_siguiente :
-                        if linea.componente_actual==proximo_componente and linea.numero==proximo_linea:
-                        
-                            self.maquina.lineas.ensamblar(numero, linea.componente_actual)
-                            producto.elaboracion.finalizado(numero, linea.componente_actual)
-                            self.maquina.lineas.setDisponible(numero)
-                            proximo=proximo.siguiente
-                            proximo_linea=proximo.linea
-                            proximo_linea=int(proximo_linea.replace("L","")) #Reemplazo las letras porque las líneas y componentes están almacenados como enteros
-                            proximo_componente=proximo.componente
-                            proximo_componente=int(proximo_componente.replace("C",""))
-                            print(proximo_linea)
-                            print(proximo_componente)
-                            elemento=cola.primero
-                            self.maquina.lineas.setComponenteSiguiente(proximo_linea,proximo_componente)
-                            
-                            continue
+                if not elemento.ensamblado:
+
+                    if linea.disponible:
+                        tiempo+=1
+                        self.maquina.lineas.setOcupada(numero)
+                        if linea.componente_actual==linea.componente_siguiente:
+                            if linea.componente_actual==proximo_componente and linea.numero==proximo_linea and componente==linea.componente_actual:
+                                tiempo-=1
+                                proximo=proximo.siguiente
+                                for ensamble in range(0,linea.tiempo):
+                                    self.maquina.lineas.ensamblar(numero,componente)
+                                    tiempo+=1
+                                self.maquina.lineas.liberarLineas()
+                                if proximo is None:
+                                    break
+                                proximo_linea=proximo.linea
+                                proximo_linea=int(proximo_linea.replace("L","")) 
+                                proximo_componente=proximo.componente
+                                proximo_componente=int(proximo_componente.replace("C",""))
+
+                                producto.elaboracion.finalizado(elemento.linea, elemento.componente)
+
+                                elemento=producto.elaboracion.primero
+                                self.asignarSiguientes(elemento)
+                                
+                            continue  
+                        elif linea.componente_siguiente is not None and linea.componente_actual<linea.componente_siguiente:
+               
+                            self.maquina.lineas.moverAdelante(numero, linea.componente_actual)
+                        elif linea.componente_siguiente is not None and linea.componente_actual>linea.componente_siguiente:
+            
+                            self.maquina.lineas.moverAtras(numero, linea.componente_actual)
+                    
+
+               
+                
                 
                 elemento=elemento.siguiente
                 if elemento is None:
-                    self.maquina.lineas.liberarLineas()
                     elemento=cola.primero
+                    self.maquina.lineas.liberarLineas()
+        print(tiempo)
+                
+                   
                 
             
 
@@ -190,7 +220,7 @@ class Ventana(QMainWindow):
                 componente=elemento.componente
                 componente=int(componente.replace("C",""))
                 linea=self.maquina.lineas.getLinea(numero)
-                if linea.componente_siguiente==None:
+                if linea.componente_siguiente==None and not elemento.ensamblado:
                     self.maquina.lineas.setComponenteSiguiente(numero,componente) #Asigno el componente en todo el sistema
                     linea.componente_siguiente=componente #Asigno el componente de manera local
                     self.limite_linea=numero
