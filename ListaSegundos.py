@@ -25,4 +25,10 @@ class ListaSegundos:
                 return aux
             aux = aux.siguiente
         return None
+
+    def imprimir(self):
+        aux = self.primero
+        while aux:
+            print("Segundo= ",aux.segundo)
+            aux = aux.siguiente
             

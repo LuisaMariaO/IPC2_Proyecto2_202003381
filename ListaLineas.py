@@ -85,6 +85,16 @@ class ListaLineas:
                 return aux
             aux = aux.siguiente
         return None
+
+    def Reestablecer(self):
+        aux=self.primero
+        while aux:
+            
+            aux.componente_actual=0
+            aux.componente_siguiente=None
+            aux=aux.siguiente
+            
+        return None
         
 
     def moverAdelante(self, numero, componente):
@@ -92,10 +102,10 @@ class ListaLineas:
         while aux:
             if numero==aux.numero and componente<=aux.no_componentes:
                 aux.componente_actual=componente+1
-                print("Linea ",numero," Mover brazo - Componente ",componente+1)
+                #print("Linea ",numero," Mover brazo - Componente ",componente+1)
                 
 
-                return "Linea ",numero," Mover brazo - Componente ",componente+1
+                return " Mover brazo - Componente "+str(componente+1)
             aux = aux.siguiente
         return None
 
@@ -104,10 +114,10 @@ class ListaLineas:
         while aux:
             if numero==aux.numero and componente<=aux.no_componentes:
                 aux.componente_actual=componente-1
-                print("Linea ",numero," Mover brazo - Componente ",componente-1)
+                #print("Linea ",numero," Mover brazo - Componente ",componente-1)
             
 
-                return "Linea ",numero," Mover brazo - Componente ",componente-1
+                return " Mover brazo - Componente "+str(componente-1)
             aux = aux.siguiente
         return None
         
@@ -118,10 +128,10 @@ class ListaLineas:
         while aux:
             if numero==aux.numero and componente<=aux.no_componentes:
                 aux.componente_siguiente=None
-                print("Linea ", numero, " Ensamblar - Componente",componente)
+                #print("Linea ", numero, " Ensamblar - Componente ",componente)
             
 
-                return "Linea ", numero, " Ensamblar - Componente",componente
+                return " Ensamblar - Componente "+str(componente)
             aux = aux.siguiente
         return None
 

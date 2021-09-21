@@ -36,3 +36,13 @@ class ListaProductos:
                 return aux
             aux=aux.siguiente
         return None
+
+    def setSimulado(self,nombre):
+        
+        aux = self.primero
+        while aux:
+            if aux.nombre==nombre:
+                
+                aux.simulado=True
+            aux=aux.siguiente
+        return None

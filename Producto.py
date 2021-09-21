@@ -7,4 +7,5 @@ class Producto():
         self.segundos=ListaSegundos()
         self.siguiente = None
         self.anterior = None
+        self.simulado=False
        
