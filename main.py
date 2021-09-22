@@ -745,7 +745,7 @@ class Ventana(QMainWindow):
             self.ui.B_play.setEnabled(True)
 
             xmlf=open('XML\\'+self.archivoActual+'.xml','a')
-            contentf="""\t<ListadoProductos>\n<SalidaSimulacion>"""
+            contentf="""\n\t</ListadoProductos>\n</SalidaSimulacion>"""
             xmlf.write(contentf)
             xmlf.close()
 
