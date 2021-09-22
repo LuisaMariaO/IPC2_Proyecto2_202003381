@@ -105,7 +105,7 @@ class ListaLineas:
                 #print("Linea ",numero," Mover brazo - Componente ",componente+1)
                 
 
-                return " Mover brazo - Componente "+str(componente+1)
+                return "Mover brazo - Componente "+str(componente+1)
             aux = aux.siguiente
         return None
 
@@ -117,7 +117,7 @@ class ListaLineas:
                 #print("Linea ",numero," Mover brazo - Componente ",componente-1)
             
 
-                return " Mover brazo - Componente "+str(componente-1)
+                return "Mover brazo - Componente "+str(componente-1)
             aux = aux.siguiente
         return None
         
@@ -131,7 +131,7 @@ class ListaLineas:
                 #print("Linea ", numero, " Ensamblar - Componente ",componente)
             
 
-                return " Ensamblar - Componente "+str(componente)
+                return "Ensamblar - Componente "+str(componente)
             aux = aux.siguiente
         return None
 

@@ -21,3 +21,13 @@ class ListaProductosArchivo:
         while aux:
             print("Producto= "+aux.nombre)
             aux = aux.siguiente
+    
+    def desencolar(self):
+        aux = self.primero
+        eliminado=aux
+        if self.size>0:
+            self.primero = aux.siguiente
+            aux.siguiente = None
+            self.size-=1
+            return eliminado
+       
