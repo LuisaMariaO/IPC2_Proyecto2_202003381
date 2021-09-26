@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SalidaSimulacion>
 	<Nombre>
-		Simulacion_Banda Galaxy Fit 2
+		Simulacion_Galaxy Note
 	</Nombre>
 	<ListadoProductos>
 		<Producto>
 			<Nombre>
-				Banda Galaxy Fit 2
+				Galaxy Note
 			</Nombre>
-			<TiempoTotal> 108 </TiempoTotal>
+			<TiempoTotal> 104 </TiempoTotal>
 			<ElaboracionOptima>
 				<Tiempo NoSegundo="1">
 					<LineaEnsamblaje NoLinea="1">
@@ -16,23 +16,23 @@
 					<LineaEnsamblaje NoLinea="2">
 						Mover brazo - Componente 1
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 1
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 1
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						Mover brazo - Componente 1
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 1
 					<LineaEnsamblaje NoLinea="7">
 						Mover brazo - Componente 1
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Mover brazo - Componente 1
 					<LineaEnsamblaje NoLinea="9">
 						Mover brazo - Componente 1
 					<LineaEnsamblaje NoLinea="10">
 						Mover brazo - Componente 1
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 1
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						Mover brazo - Componente 1
 					<LineaEnsamblaje NoLinea="13">
@@ -45,23 +45,23 @@
 					<LineaEnsamblaje NoLinea="2">
 						Mover brazo - Componente 2
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 2
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 2
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
+						Mover brazo - Componente 2
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 2
 					<LineaEnsamblaje NoLinea="7">
 						Mover brazo - Componente 2
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Mover brazo - Componente 2
 					<LineaEnsamblaje NoLinea="9">
 						Mover brazo - Componente 2
 					<LineaEnsamblaje NoLinea="10">
 						Mover brazo - Componente 2
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 2
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						Mover brazo - Componente 2
 					<LineaEnsamblaje NoLinea="13">
@@ -74,13 +74,13 @@
 					<LineaEnsamblaje NoLinea="2">
 						Mover brazo - Componente 3
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 3
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 3
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 3
 					<LineaEnsamblaje NoLinea="7">
 						Mover brazo - Componente 3
 					<LineaEnsamblaje NoLinea="8">
@@ -88,9 +88,9 @@
 					<LineaEnsamblaje NoLinea="9">
 						Mover brazo - Componente 3
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 3
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 3
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						Mover brazo - Componente 3
 					<LineaEnsamblaje NoLinea="13">
@@ -103,13 +103,13 @@
 					<LineaEnsamblaje NoLinea="2">
 						Mover brazo - Componente 4
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 4
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 4
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 4
 					<LineaEnsamblaje NoLinea="7">
 						Mover brazo - Componente 4
 					<LineaEnsamblaje NoLinea="8">
@@ -117,9 +117,9 @@
 					<LineaEnsamblaje NoLinea="9">
 						Mover brazo - Componente 4
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 4
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 4
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						Mover brazo - Componente 4
 					<LineaEnsamblaje NoLinea="13">
@@ -132,13 +132,13 @@
 					<LineaEnsamblaje NoLinea="2">
 						Mover brazo - Componente 5
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 5
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 5
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 5
 					<LineaEnsamblaje NoLinea="7">
 						Mover brazo - Componente 5
 					<LineaEnsamblaje NoLinea="8">
@@ -146,9 +146,9 @@
 					<LineaEnsamblaje NoLinea="9">
 						Mover brazo - Componente 5
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 5
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 5
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						Mover brazo - Componente 5
 					<LineaEnsamblaje NoLinea="13">
@@ -161,23 +161,23 @@
 					<LineaEnsamblaje NoLinea="2">
 						Mover brazo - Componente 6
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 6
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 6
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 6
 					<LineaEnsamblaje NoLinea="7">
 						Mover brazo - Componente 6
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 6
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 6
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 6
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						Mover brazo - Componente 6
 					<LineaEnsamblaje NoLinea="13">
@@ -188,25 +188,25 @@
 					<LineaEnsamblaje NoLinea="1">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="2">
-						Mover brazo - Componente 7
+						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 7
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 7
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 7
 					<LineaEnsamblaje NoLinea="7">
 						Mover brazo - Componente 7
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 7
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 7
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 7
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						Mover brazo - Componente 7
 					<LineaEnsamblaje NoLinea="13">
@@ -217,58 +217,58 @@
 					<LineaEnsamblaje NoLinea="1">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="2">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 8
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="9">
 					<LineaEnsamblaje NoLinea="1">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="2">
-						Mover brazo - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
-						Mover brazo - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Mover brazo - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 9
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="10">
@@ -277,27 +277,27 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Mover brazo - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 10
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="11">
@@ -306,27 +306,27 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 11
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 11
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 11
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 11
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 11
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Mover brazo - Componente 11
+						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 11
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="12">
@@ -335,27 +335,27 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 12
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 12
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 12
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 12
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 12
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Mover brazo - Componente 12
+						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 12
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="13">
@@ -364,25 +364,25 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 13
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 13
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 13
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 13
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 13
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Mover brazo - Componente 13
+						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
 					</LineaEnsamblaje>
@@ -393,25 +393,25 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						Mover brazo - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Mover brazo - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
 					</LineaEnsamblaje>
@@ -422,25 +422,25 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Mover brazo - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Mover brazo - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
 					</LineaEnsamblaje>
@@ -451,13 +451,13 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 16
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 16
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
@@ -467,9 +467,9 @@
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 16
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Mover brazo - Componente 16
+						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
 					</LineaEnsamblaje>
@@ -480,13 +480,13 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 17
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 17
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 7
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
@@ -496,7 +496,7 @@
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 17
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -509,9 +509,9 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 18
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 18
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
@@ -523,9 +523,9 @@
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 18
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -538,9 +538,9 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Mover brazo - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
@@ -552,9 +552,9 @@
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -569,7 +569,7 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 20
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
@@ -581,9 +581,9 @@
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 20
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -598,7 +598,7 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 21
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
@@ -610,9 +610,9 @@
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 21
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -627,7 +627,7 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 22
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
@@ -639,9 +639,9 @@
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="11">
-						Mover brazo - Componente 22
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -656,7 +656,7 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Mover brazo - Componente 23
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
@@ -668,7 +668,7 @@
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
@@ -685,13 +685,13 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Ensamblar - Componente 23
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 8
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 8
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -701,9 +701,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Mover brazo - Componente 8
 					<LineaEnsamblaje NoLinea="13">
-						No hacer nada
+						Mover brazo - Componente 8
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="25">
@@ -714,13 +714,13 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Ensamblar - Componente 23
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 9
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 9
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -730,9 +730,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Mover brazo - Componente 9
 					<LineaEnsamblaje NoLinea="13">
-						No hacer nada
+						Mover brazo - Componente 9
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="26">
@@ -743,13 +743,13 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Ensamblar - Componente 23
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 10
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 10
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -759,9 +759,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Mover brazo - Componente 10
 					<LineaEnsamblaje NoLinea="13">
-						No hacer nada
+						Mover brazo - Componente 10
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="27">
@@ -772,13 +772,13 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Ensamblar - Componente 23
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 11
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 11
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -788,9 +788,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Mover brazo - Componente 11
 					<LineaEnsamblaje NoLinea="13">
-						No hacer nada
+						Mover brazo - Componente 11
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="28">
@@ -801,13 +801,13 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Ensamblar - Componente 23
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 12
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 12
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -817,9 +817,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Mover brazo - Componente 12
 					<LineaEnsamblaje NoLinea="13">
-						No hacer nada
+						Mover brazo - Componente 12
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="29">
@@ -830,13 +830,13 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Ensamblar - Componente 23
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 13
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 13
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -846,9 +846,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Mover brazo - Componente 13
 					<LineaEnsamblaje NoLinea="13">
-						No hacer nada
+						Mover brazo - Componente 13
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="30">
@@ -859,13 +859,13 @@
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
-						Ensamblar - Componente 23
+						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Mover brazo - Componente 14
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 14
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -875,9 +875,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Mover brazo - Componente 14
 					<LineaEnsamblaje NoLinea="13">
-						No hacer nada
+						Mover brazo - Componente 14
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="31">
@@ -904,9 +904,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Ensamblar - Componente 16
-					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
+					<LineaEnsamblaje NoLinea="13">
+						Ensamblar - Componente 14
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="32">
@@ -933,9 +933,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Ensamblar - Componente 16
-					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
+					<LineaEnsamblaje NoLinea="13">
+						Ensamblar - Componente 14
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="33">
@@ -962,9 +962,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Ensamblar - Componente 16
-					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
+					<LineaEnsamblaje NoLinea="13">
+						Ensamblar - Componente 14
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="34">
@@ -991,9 +991,9 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Ensamblar - Componente 16
-					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
+					<LineaEnsamblaje NoLinea="13">
+						Ensamblar - Componente 14
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="35">
@@ -1020,16 +1020,16 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						Ensamblar - Componente 16
-					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
+					<LineaEnsamblaje NoLinea="13">
+						Ensamblar - Componente 14
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="36">
 					<LineaEnsamblaje NoLinea="1">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="2">
-						Ensamblar - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
@@ -1051,14 +1051,14 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						No hacer nada
+						Ensamblar - Componente 14
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="37">
 					<LineaEnsamblaje NoLinea="1">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="2">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="3">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
@@ -1072,7 +1072,7 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Ensamblar - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -1095,13 +1095,13 @@
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Ensamblar - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -1124,13 +1124,13 @@
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Ensamblar - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -1153,13 +1153,13 @@
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Ensamblar - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -1182,13 +1182,13 @@
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Ensamblar - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -1211,13 +1211,13 @@
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Ensamblar - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -1240,13 +1240,13 @@
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Ensamblar - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -1269,13 +1269,13 @@
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Ensamblar - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -1298,13 +1298,13 @@
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						Ensamblar - Componente 15
+						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -1321,13 +1321,13 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
@@ -1350,13 +1350,13 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
@@ -1379,7 +1379,7 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
@@ -1387,7 +1387,7 @@
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 15
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -1408,7 +1408,7 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
@@ -1416,7 +1416,7 @@
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Ensamblar - Componente 15
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -1437,7 +1437,7 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
@@ -1447,7 +1447,7 @@
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -1466,7 +1466,7 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
@@ -1476,7 +1476,7 @@
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -1495,7 +1495,7 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
@@ -1505,7 +1505,7 @@
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -1524,7 +1524,7 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
@@ -1534,7 +1534,7 @@
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -1553,7 +1553,7 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
@@ -1563,7 +1563,7 @@
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -1582,7 +1582,7 @@
 					<LineaEnsamblaje NoLinea="2">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="3">
-						Ensamblar - Componente 19
+						No hacer nada
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
@@ -1592,7 +1592,7 @@
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -1619,9 +1619,9 @@
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						Ensamblar - Componente 9
-					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
+					<LineaEnsamblaje NoLinea="8">
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -1644,13 +1644,13 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 1
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -1673,7 +1673,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 1
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -1687,7 +1687,7 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
 					</LineaEnsamblaje>
@@ -1702,7 +1702,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 1
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -1716,7 +1716,7 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
 					</LineaEnsamblaje>
@@ -1731,7 +1731,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 1
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -1745,7 +1745,7 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
 					</LineaEnsamblaje>
@@ -1760,7 +1760,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 1
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -1774,7 +1774,7 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
 					</LineaEnsamblaje>
@@ -1789,7 +1789,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 1
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -1803,7 +1803,7 @@
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
+						Ensamblar - Componente 14
 					<LineaEnsamblaje NoLinea="13">
 						No hacer nada
 					</LineaEnsamblaje>
@@ -1826,11 +1826,11 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 5
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Ensamblar - Componente 22
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -1855,11 +1855,11 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 5
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Ensamblar - Componente 22
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -1884,11 +1884,11 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 5
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Ensamblar - Componente 22
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -1913,11 +1913,11 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 5
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Ensamblar - Componente 22
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -1942,11 +1942,11 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 5
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Ensamblar - Componente 22
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -1971,11 +1971,11 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 5
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Ensamblar - Componente 22
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -2000,11 +2000,11 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 5
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
-						Ensamblar - Componente 22
+						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
@@ -2021,15 +2021,15 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Mover brazo - Componente 2
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 5
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2050,15 +2050,15 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Mover brazo - Componente 3
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						Mover brazo - Componente 7
+						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 5
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2083,11 +2083,11 @@
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						Ensamblar - Componente 7
+						Mover brazo - Componente 14
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Mover brazo - Componente 3
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Mover brazo - Componente 6
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2108,15 +2108,15 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Mover brazo - Componente 4
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 13
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Mover brazo - Componente 4
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Mover brazo - Componente 7
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2137,15 +2137,15 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Mover brazo - Componente 5
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 12
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Mover brazo - Componente 5
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Mover brazo - Componente 8
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2166,15 +2166,15 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Mover brazo - Componente 6
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 11
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Mover brazo - Componente 6
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Mover brazo - Componente 9
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2195,13 +2195,13 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Mover brazo - Componente 7
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -2224,13 +2224,13 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Mover brazo - Componente 8
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -2253,13 +2253,13 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Mover brazo - Componente 9
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -2282,13 +2282,13 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Mover brazo - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -2311,13 +2311,13 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -2340,13 +2340,13 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -2369,13 +2369,13 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -2398,13 +2398,13 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="9">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="10">
@@ -2427,15 +2427,15 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 10
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Mover brazo - Componente 10
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2456,11 +2456,11 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						Ensamblar - Componente 10
+						No hacer nada
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 9
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -2489,7 +2489,7 @@
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 8
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -2501,7 +2501,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 12
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="87">
@@ -2518,7 +2518,7 @@
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 7
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -2530,7 +2530,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 12
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="88">
@@ -2547,7 +2547,7 @@
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Mover brazo - Componente 6
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -2559,7 +2559,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 12
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="89">
@@ -2576,7 +2576,7 @@
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
+						Ensamblar - Componente 6
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
@@ -2588,7 +2588,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 12
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="90">
@@ -2609,7 +2609,7 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 10
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2617,7 +2617,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 12
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="91">
@@ -2638,7 +2638,7 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 10
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2646,7 +2646,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 12
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="92">
@@ -2667,9 +2667,9 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 10
 					<LineaEnsamblaje NoLinea="10">
-						Ensamblar - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
@@ -2696,9 +2696,9 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 10
 					<LineaEnsamblaje NoLinea="10">
-						Ensamblar - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
@@ -2725,9 +2725,9 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 10
 					<LineaEnsamblaje NoLinea="10">
-						Ensamblar - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
@@ -2754,9 +2754,9 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 10
 					<LineaEnsamblaje NoLinea="10">
-						Ensamblar - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
@@ -2783,9 +2783,9 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 10
 					<LineaEnsamblaje NoLinea="10">
-						Ensamblar - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
@@ -2812,9 +2812,9 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 10
 					<LineaEnsamblaje NoLinea="10">
-						Ensamblar - Componente 14
+						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="12">
@@ -2841,7 +2841,7 @@
 					<LineaEnsamblaje NoLinea="8">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
+						Ensamblar - Componente 10
 					<LineaEnsamblaje NoLinea="10">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="11">
@@ -2849,7 +2849,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 11
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="99">
@@ -2862,7 +2862,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -2878,7 +2878,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 10
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="100">
@@ -2891,7 +2891,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -2907,7 +2907,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 9
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="101">
@@ -2920,7 +2920,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -2936,7 +2936,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 8
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="102">
@@ -2949,7 +2949,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -2965,7 +2965,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Mover brazo - Componente 7
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="103">
@@ -2978,7 +2978,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -2994,7 +2994,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 7
+						No hacer nada
 					</LineaEnsamblaje>
 				</Tiempo>
 				<Tiempo NoSegundo="104">
@@ -3007,7 +3007,7 @@
 					<LineaEnsamblaje NoLinea="4">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
+						Ensamblar - Componente 2
 					<LineaEnsamblaje NoLinea="6">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="7">
@@ -3023,123 +3023,7 @@
 					<LineaEnsamblaje NoLinea="12">
 						No hacer nada
 					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 7
-					</LineaEnsamblaje>
-				</Tiempo>
-				<Tiempo NoSegundo="105">
-					<LineaEnsamblaje NoLinea="1">
 						No hacer nada
-					<LineaEnsamblaje NoLinea="2">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="3">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="4">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="11">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 7
-					</LineaEnsamblaje>
-				</Tiempo>
-				<Tiempo NoSegundo="106">
-					<LineaEnsamblaje NoLinea="1">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="2">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="3">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="4">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="11">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 7
-					</LineaEnsamblaje>
-				</Tiempo>
-				<Tiempo NoSegundo="107">
-					<LineaEnsamblaje NoLinea="1">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="2">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="3">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="4">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="11">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 7
-					</LineaEnsamblaje>
-				</Tiempo>
-				<Tiempo NoSegundo="108">
-					<LineaEnsamblaje NoLinea="1">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="2">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="3">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="4">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="5">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="6">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="7">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="8">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="9">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="10">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="11">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="12">
-						No hacer nada
-					<LineaEnsamblaje NoLinea="13">
-						Ensamblar - Componente 7
 					</LineaEnsamblaje>
 				</Tiempo>
 			</ElaboracionOptima>

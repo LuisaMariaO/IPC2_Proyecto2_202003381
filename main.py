@@ -29,6 +29,9 @@ class Ventana(QMainWindow):
         #Genera reportes de cola de secuencia
         self.ui.action_reporte_cola.triggered.connect(self.reporteCola)
 
+        self.ui.action_acerca_de.triggered.connect(self.info)
+        self.ui.action_my_info.triggered.connect(self.about)
+
         self.ui.comboBox.activated[str].connect(self.agregarComponentes)
 
         #Botón de simular
@@ -48,7 +51,7 @@ class Ventana(QMainWindow):
   
         archivo=QFileDialog.getOpenFileName(self, 'Abrir archivo', 'C:\\','Archivos xml (*.xml)')
         try:
-            #Tomo la posición 0 de la ruta, pues QFileDialog retorna una tupla compuesta por la ruta y el tipo de archivo
+            #Tomo la posición 0 de la ruta, pues QFileDialog retorna la ruta y el tipo de archivo
             tree = ET.parse(archivo[0])
             root = tree.getroot()  
             for Ma in root:
@@ -105,6 +108,12 @@ class Ventana(QMainWindow):
             self.ui.comboBox.addItem(aux.nombre)
             aux = aux.siguiente
 
+
+    def info(self):
+        QMessageBox.about(self, "Ayuda", "© Digital Intelligence S.A. 2021\nSimulacion de ensamblado de productos\n")
+        
+    def about(self):
+        QMessageBox.about(self, "Sobre el programador", "Luisa María Ortíz Romero\n\n4to semestre\nIngeniería en Ciencias y Sistemas\nUniversidad de San Carlos de Guatemala")
 
     def agregarComponentes(self, producto):
         self.ui.list_componentes.clear()
