@@ -135,11 +135,11 @@ class MainWindow(object):
         self.menuAyuda.addAction(self.action_acerca_de)
         self.menuAyuda.addSeparator()
         self.menuAyuda.addAction(self.action_my_info)
-        self.menuReiniciar.addAction(self.action_borrar)
+        
         self.menubar.addAction(self.menuArchivo.menuAction())
         self.menubar.addAction(self.menuReportes.menuAction())
         self.menubar.addAction(self.menuAyuda.menuAction())
-        self.menubar.addAction(self.menuReiniciar.menuAction())
+        
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)

@@ -19,6 +19,6 @@
 		L7C6[label="L7C6", fillcollor=azure]
 		L9C10[label="L9C10", fillcollor=azure]
 		L5C2[label="L5C2", fillcollor=azure]
-		{rank=same; L6C7->L6C7->L10C2->L13C14->L2C6->L6C14->L7C15->L8C2->L12C14->L9C5->L8C6->L7C6->L9C10->L5C2}
+		{rank=same; L6C7->L10C2->L13C14->L2C6->L6C14->L7C15->L8C2->L12C14->L9C5->L8C6->L7C6->L9C10->L5C2}
 }
-			}
+}

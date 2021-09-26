@@ -31,6 +31,7 @@ class Ventana(QMainWindow):
 
         self.ui.action_acerca_de.triggered.connect(self.info)
         self.ui.action_my_info.triggered.connect(self.about)
+        self.ui.action_reporte_simulacion.triggered.connect(self.aboutReportes)
 
         self.ui.comboBox.activated[str].connect(self.agregarComponentes)
 
@@ -114,6 +115,10 @@ class Ventana(QMainWindow):
         
     def about(self):
         QMessageBox.about(self, "Sobre el programador", "Luisa María Ortíz Romero\n\n4to semestre\nIngeniería en Ciencias y Sistemas\nUniversidad de San Carlos de Guatemala")
+
+    def aboutReportes(self):
+        QMessageBox.about(self, "Información", "Los reportes de simulación se generan automáticamente al terminar el ensamblaje en las carpetas HTML y XML de este directorio.")
+
 
     def agregarComponentes(self, producto):
         self.ui.list_componentes.clear()
@@ -305,9 +310,10 @@ class Ventana(QMainWindow):
         <html>
         <head>
         <title> Simulación_ """+producto.nombre+"""</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
         </head>
         <body>
-        <table border="1px" cellspacing=0>
+        <table border="1px" cellspacing=0><caption>Proceso</caption>
         """
         
         final=producto.segundos.ultimo
@@ -325,7 +331,7 @@ class Ventana(QMainWindow):
 
         body+="<h2> Producto: "+producto.nombre+"</h2> "
         body+="<h3> Tiempo de ensamblaje: "+str(final.segundo-1)+" segundos</h2> "
-        body+="<h2>Proceso</h2> "
+        
 
         for fila in range(1,final.segundo):
             celdas+="<tr>"
@@ -639,9 +645,10 @@ class Ventana(QMainWindow):
         <html>
         <head>
         <title> Simulación_ """+producto.nombre+"""</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
         </head>
         <body>
-        <table border="1px" cellspacing=0>
+        <table border="1px" cellspacing=0> <caption>Proceso</caption>
         """
         
         final=producto.segundos.ultimo
@@ -667,7 +674,7 @@ class Ventana(QMainWindow):
 
         body+="<h2> Producto: "+producto.nombre+"</h2> "
         body+="<h3> Tiempo de ensamblaje: "+str(final.segundo-1)+" segundos</h2> "
-        body+="<h2>Proceso</h2> "
+       
 
         for fila in range(1,final.segundo):
             celdas+="<tr>"
